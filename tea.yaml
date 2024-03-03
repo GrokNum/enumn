@@ -4,3 +4,10 @@ version: 1.0.0
 codeOwners:
   - '0xFfaEC98b1A05E513A581d5296281EA699b4558B2'
 quorum: 1
+from awesome_tools import StringUtils
+
+# 示例字符串工具的使用
+result = StringUtils.join_strings("Hello", "world")
+print(result)  # 输出：Hello world
+
+# 更多示例请查阅文档
